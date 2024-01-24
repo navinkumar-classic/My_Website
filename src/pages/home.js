@@ -10,8 +10,8 @@ function Home() {
 
       <div className = "main-body">
         <h className = "window-head">Portfolio</h>
-        <Custom_navigation name = "Resume" a_l = "25%" a_t = "18%" left = "74%" link = "/resume"/>
-        <Custom_navigation name = "About me" a_l = "18%" a_t = "18%" left = "87%" link = "/About"/>
+        <Custom_navigation name = "Resume" a_l = "25%" a_t = "18%" left = "74%" link = "/My_Website/resume"/>
+        <Custom_navigation name = "About me" a_l = "18%" a_t = "18%" left = "87%" link = "/My_Website/About"/>
         <div className = "main-bg-r">
         <h1 className = "heading" style={{"padding-left": "40%","paddingTop": "5%","color": "#c2a78e"}}> "Do or do not. <br/> There is no try."</h1>
         <img src = "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147509972/images/3acd38b-d081-2f5d-f785-a173c6bdab21_Indian-Floral.jpg"
