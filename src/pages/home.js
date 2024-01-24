@@ -10,7 +10,7 @@ function Home() {
 
       <div className = "main-body">
         <h className = "window-head">Portfolio</h>
-        <Custom_navigation name = "Resume" a_l = "25%" a_t = "18%" left = "74%" link = "resume"/>
+        <Custom_navigation name = "Resume" a_l = "25%" a_t = "18%" left = "74%" link = "/resume"/>
         <Custom_navigation name = "About me" a_l = "18%" a_t = "18%" left = "87%" link = "/About"/>
         <div className = "main-bg-r">
         <h1 className = "heading" style={{"padding-left": "40%","paddingTop": "5%","color": "#c2a78e"}}> "Do or do not. <br/> There is no try."</h1>
