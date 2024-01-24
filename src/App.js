@@ -7,10 +7,9 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route index element = {<Home />} />
-        <Route path='/' exact element = {<Home />} />
-        <Route exact path='/resume' element = {<Resume />} />
-        <Route path='/about' element = {<About />} />
+        <Route path='/My_Website' exact element = {<Home />} />
+        <Route path='/My_Website/resume' exact element = {<Resume />} />
+        <Route path='/My_Website/about' exact element = {<About />} />
       </Routes>
     </BrowserRouter>
   );
