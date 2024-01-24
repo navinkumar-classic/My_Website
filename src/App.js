@@ -5,11 +5,11 @@ import About from './pages/about';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL + '/My_Website'}>
       <Routes>
         <Route index element = {<Home />} />
         <Route path='/' exact element = {<Home />} />
-        <Route exact path='/My_Website/resume' element = {<Resume />} />
+        <Route exact path='/resume' element = {<Resume />} />
         <Route path='/about' element = {<About />} />
       </Routes>
     </BrowserRouter>
