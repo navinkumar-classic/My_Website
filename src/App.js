@@ -5,7 +5,7 @@ import About from './pages/about';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + '/My_Website'}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route index element = {<Home />} />
         <Route path='/' exact element = {<Home />} />
